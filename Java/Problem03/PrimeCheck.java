@@ -9,7 +9,7 @@ public class PrimeCheck {
         System.out.print("Enter Number: ");
         number = sc.nextInt();
 
-        for(int i=2; i< number; i++){
+        for(int i=2; i< (number/2); i++){
             if(number%i == 0){
                 flag = 0;
                 break;
